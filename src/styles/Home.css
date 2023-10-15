@@ -3,6 +3,11 @@ body {
   /* flex-direction: row; */
   justify-content: center;
   align-items: center;
+  background-image: url("../assets/images/strong_santa.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .button-holder {
@@ -27,8 +32,14 @@ body {
 .cool-font {
   color: red;
   font-size: 48px;
-  font-family: 'Courier New', Courier, monospace;
-  background-image: repeating-linear-gradient(45deg, red, red 10px, white 10px, white 20px);
+  font-family: "Courier New", Courier, monospace;
+  background-image: repeating-linear-gradient(
+    45deg,
+    red,
+    red 10px,
+    white 10px,
+    white 20px
+  );
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
